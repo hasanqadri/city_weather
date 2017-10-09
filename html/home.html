@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+    <head>
+        <title>Weather Forecasts</title>
+        <link rel="stylesheet" href="../css/style.css" type="text/css" />
+        <script type="text/javascript" src="../js/weather.js"></script>
+
+    </head>
+    
+    <body onload=start();>
+        <div id="selector">
+            <form name="stateForm" onchange="start();">
+                <select id="state" name="state"></select>
+            </form>
+        </div>
+       <center><div id="title"><h1></h1></div></center>
+        <div id="salesChart">
+            <svg id="chart"></svg>
+        </div>
+    </body>
+</html>
